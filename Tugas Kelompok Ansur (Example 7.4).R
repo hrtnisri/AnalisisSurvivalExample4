@@ -243,5 +243,5 @@ statistik_uji_Z2Z3
 # akan dilihat apakah terdapat perbedaan fungsi survival disease-free dari ketiga populasi
 survdiff(Surv(t2, d3) ~ group, data=bmt)
 
-# berdasarkan uji tersebut, diperoleh kesimpulan bahwa H0 diterima
-# karena p-value = 0.001 < 0.05 = alpha
+# berdasarkan uji tersebut, diperoleh kesimpulan bahwa H0 ditolak
+# dengan p-value = 0.001
