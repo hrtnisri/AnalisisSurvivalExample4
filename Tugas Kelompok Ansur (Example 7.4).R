@@ -244,4 +244,3 @@ statistik_uji_Z2Z3
 survdiff(Surv(t2, d3) ~ group, data=bmt)
 
 # berdasarkan uji tersebut, diperoleh kesimpulan bahwa H0 ditolak
-# dengan p-value = 0.001
